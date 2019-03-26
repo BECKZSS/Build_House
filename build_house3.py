@@ -63,8 +63,8 @@ house1=House()
 house1.build_wall(pos1.x,pos1.y,pos1.z,89)
 
 
-for i in range(100000):
-    house1.change_material(1+i%100)
+for i in range(100):
+    house1.change_material(1+i%10)
     time.sleep(1)
 print(house1)
 
