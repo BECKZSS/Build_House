@@ -3,6 +3,8 @@ import time
 import math
 import random as rd
 
+print("teacher hahah")
+
 mc=Minecraft.create()
 #mc=Minecraft.create("10.163.80.195",4711)
 
